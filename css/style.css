@@ -628,12 +628,15 @@ html{
     position: relative;
 }
 
+.contacto .col .conjunto{
+    margin-bottom: 20px;
+}
+
 .contacto .col input, .contacto .col textarea{
     display: block;
     width: 100%;
     padding: 18px;
     border: none;
-    margin-bottom: 20px;
     background-color: #252A2E;
     color: #fff;
     font-size: 18px;
@@ -666,6 +669,20 @@ html{
 
 .contacto button:hover .overlay{
     width: 100%;
+}
+
+.contacto .col .error-input{
+    border: 1px solid #d9534f; /* Borde rojo para el input con error */
+}
+
+.contacto .col .conjunto .error{
+    color: #d9534f; /* Color del texto */
+    background-color: #f2dede; /* Color de fondo para indicar error */
+    border: 1px solid #d9534f; /* Borde del mensaje de error */
+    padding: 0; /* Espaciado interno para mayor legibilidad */
+    margin-bottom: 10px; /* Espaciado inferior para separar mensajes de error */
+    width: 100%;
+    display: block;
 }
 
 .contacto .col img{
